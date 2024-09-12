@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บไซต์ตัวอย่าง</title>
+    <style>
+        .image-link {
+            display: inline-block;
+            position: relative;
+        }
+        .image-link img {
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: opacity 0.3s ease;
+        }
+        .image-link:hover .default-image {
+            opacity: 0;
+        }
+        .image-link:hover .hover-image {
+            opacity: 1;
+        }
+        .default-image, .hover-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: auto;
+            transition: opacity 0.3s ease;
+        }
+        .hover-image {
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>เว็บไซต์ตัวอย่าง</h1>
+    <p>คลิกที่ภาพเพื่อไปยังหน้าอื่น</p>
+    <a href="D:\Chanon_012\index.html" class="image-link">
+        <img src="D:\Chanon_012\p1.png" alt="ภาพเริ่มต้น" class="default-image">
+        <img src="D:\Chanon_012\p1c.png" alt="ภาพเมื่อวางเมาส์" class="hover-image">
+    </a>
+</body>
+</html>

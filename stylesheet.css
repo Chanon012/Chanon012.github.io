@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Mali';
+    src: url('Mali-Medium.eot');
+    src: url('Mali-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Mali-Medium.woff2') format('woff2'),
+        url('Mali-Medium.woff') format('woff'),
+        url('Mali-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
